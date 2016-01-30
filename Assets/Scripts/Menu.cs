@@ -6,9 +6,11 @@ public class Menu : MonoBehaviour
     public GameObject MainMenuCanvas;
     public GameObject CreditsCanvas;
 
+    [SerializeField] private string FirstScene;
+
     public void Play()
     {
-        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene(this.FirstScene);
     }
 
     public void Credits()
