@@ -4,7 +4,7 @@ using System.Collections;
 public class CallParentTrigger : MonoBehaviour
 {
     [SerializeField]
-    private Habit Parent;
+    private Action Parent;
 
     [SerializeField]
     private GameObject UI;
@@ -29,6 +29,6 @@ public class CallParentTrigger : MonoBehaviour
     {
         if (!Input.GetKeyUp(this.UseKey) || !this.InRange)
             return;
-        this.Parent.ExecuteHabit();
+        this.Parent.Execute();
     }
 }

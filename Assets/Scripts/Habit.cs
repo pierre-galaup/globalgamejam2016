@@ -3,17 +3,11 @@ using UnityEngine;
 using System.Collections;
 using Object = UnityEngine.Object;
 
-public class Habit : MonoBehaviour
+public class Habit : Action
 {
-    [SerializeField]
-    private AudioClip Speech;
-
-    [SerializeField]
-    private MonoBehaviour OnTrigger;
-
     [SerializeField] private Habit ExpectedHabit;
 
-    internal void ExecuteHabit()
+    public override void Execute()
     {
         if (GameManager.Instance.CurentHabit != this.ExpectedHabit)
             return;
