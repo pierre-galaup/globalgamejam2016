@@ -21,7 +21,10 @@ public class LockMovements : MonoBehaviour
 	{
 	    this.startTime += Time.deltaTime;
 	    if (this.startTime >= this.LockTime)
-	        this.FpsControllerScript.enabled = true;
-	    this.enabled = false;
+        {
+            this.FpsControllerScript.enabled = true;
+            this.enabled = false;
+        }
+	        
 	}
 }
