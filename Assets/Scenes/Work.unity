@@ -505,6 +505,11 @@ Prefab:
       propertyPath: ScenePlayerVoice
       value: 
       objectReference: {fileID: 746765759}
+    - target: {fileID: 11475676, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
+      propertyPath: DefaultAction
+      value: 
+      objectReference: {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
   m_IsPrefabParent: 0
@@ -628,6 +633,12 @@ MonoBehaviour:
   Speech: {fileID: 0}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 1930925585}
+  ExpectedPreviousActions:
+  - {fileID: 1930925585}
+  - {fileID: 1964294781}
+  PreviousActionsScripts:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &460333151 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: d483c2143a69ccc4f841042eb9a72cb5, type: 3}
@@ -812,6 +823,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
   OnTrigger: {fileID: 531852981}
   ExpectedPreviousHabit: {fileID: 1964294781}
+  ExpectedPreviousActions:
+  - {fileID: 439118398}
+  PreviousActionsScripts:
+  - {fileID: 531852981}
 --- !u!114 &531852981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3332,6 +3347,10 @@ MonoBehaviour:
   Speech: {fileID: 0}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 0}
+  ExpectedPreviousActions:
+  - {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922, type: 2}
+  PreviousActionsScripts:
+  - {fileID: 0}
 --- !u!1001 &1931951138
 Prefab:
   m_ObjectHideFlags: 0
@@ -3532,6 +3551,10 @@ MonoBehaviour:
   Speech: {fileID: 0}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 439118398}
+  ExpectedPreviousActions:
+  - {fileID: 439118398}
+  PreviousActionsScripts:
+  - {fileID: 0}
 --- !u!4 &1964294784 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: cad7601757be8794b96e854a56f057e4, type: 3}

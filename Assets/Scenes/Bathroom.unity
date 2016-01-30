@@ -676,6 +676,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: 62a677b6c32509c4f82ea8a5d7d0c2d0, type: 3}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 1569826995}
+  ExpectedPreviousActions:
+  - {fileID: 1569826995}
+  PreviousActionsScripts:
+  - {fileID: 0}
 --- !u!1001 &430285619
 Prefab:
   m_ObjectHideFlags: 0
@@ -1140,7 +1144,7 @@ Transform:
   m_LocalScale: {x: 1, y: 4, z: 12}
   m_Children: []
   m_Father: {fileID: 815522229}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &815522225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,7 +1220,6 @@ Transform:
   m_Children:
   - {fileID: 508317886}
   - {fileID: 1396412178}
-  - {fileID: 1213137719}
   - {fileID: 1533938304}
   - {fileID: 1909856079}
   - {fileID: 802965534}
@@ -1549,6 +1552,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: 260a406bc58e76a43a262658dd7422b4, type: 3}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 429351437}
+  ExpectedPreviousActions:
+  - {fileID: 429351437}
+  PreviousActionsScripts:
+  - {fileID: 0}
 --- !u!1001 &1013168685
 Prefab:
   m_ObjectHideFlags: 0
@@ -1653,6 +1660,10 @@ MonoBehaviour:
   Speech: {fileID: 0}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 939796260}
+  ExpectedPreviousActions:
+  - {fileID: 939796260}
+  PreviousActionsScripts:
+  - {fileID: 0}
 --- !u!4 &1139858931 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 82686f0daef9e39479ebdce3a8749a6c, type: 3}
@@ -1743,7 +1754,7 @@ Transform:
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 815522229}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1001 &1184708252
 Prefab:
   m_ObjectHideFlags: 0
@@ -1811,39 +1822,39 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 815522229}
+    m_TransformParent: {fileID: 1396412178}
     m_Modifications:
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.1299984
+      value: 0.08300002
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.42549992
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.8534997
+      value: 0.098999985
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.00000003597459
+      value: -0.00000014901161
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0.000000006172259
-      objectReference: {fileID: 0}
-    - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
-      propertyPath: m_LocalRotation.w
       value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000011612316
+      objectReference: {fileID: 0}
+    - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11414078, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: UI
@@ -1855,15 +1866,15 @@ Prefab:
       objectReference: {fileID: 1396412180}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.7832165
+      value: 0.17404811
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.4938706
+      value: 0.33197126
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.22222221
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
@@ -1966,7 +1977,8 @@ Transform:
   m_LocalRotation: {x: -0.49999997, y: -0.5, z: -0.5000001, w: 0.49999994}
   m_LocalPosition: {x: 1.1299999, y: -0.01999998, z: 3.4799995}
   m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
-  m_Children: []
+  m_Children:
+  - {fileID: 1213137719}
   m_Father: {fileID: 815522229}
   m_RootOrder: 1
 --- !u!65 &1396412179
@@ -1995,6 +2007,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
   OnTrigger: {fileID: 1396412181}
   ExpectedPreviousHabit: {fileID: 1139858928}
+  ExpectedPreviousActions:
+  - {fileID: 1139858928}
+  PreviousActionsScripts:
+  - {fileID: 1396412181}
 --- !u!114 &1396412181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2050,6 +2066,11 @@ Prefab:
       propertyPath: ScenePlayerVoice
       value: 
       objectReference: {fileID: 485440384}
+    - target: {fileID: 11475676, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
+      propertyPath: DefaultAction
+      value: 
+      objectReference: {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
   m_IsPrefabParent: 0
@@ -2127,7 +2148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 4, z: 12}
   m_Children: []
   m_Father: {fileID: 815522229}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &1561254614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2282,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: 1182260d36446f44495b447c3fc4c30e, type: 3}
   OnTrigger: {fileID: 1569826996}
   ExpectedPreviousHabit: {fileID: 0}
+  ExpectedPreviousActions:
+  - {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922, type: 2}
+  PreviousActionsScripts:
+  - {fileID: 1569826996}
 --- !u!114 &1569826996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2368,7 +2393,7 @@ Transform:
   m_LocalScale: {x: 1, y: 4, z: 12}
   m_Children: []
   m_Father: {fileID: 815522229}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1001 &1927856252
 Prefab:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class CallParentTrigger : MonoBehaviour
     [SerializeField] private KeyCode UseKey = KeyCode.E;
 
     private bool InRange;
+    private bool IsRunning;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -23,6 +24,8 @@ public class CallParentTrigger : MonoBehaviour
     {
         this.UI.SetActive(false);
         this.InRange = false;
+        if (this.IsRunning)
+            this.Parent.Abort();
     }
 
     public void Update()
@@ -30,5 +33,6 @@ public class CallParentTrigger : MonoBehaviour
         if (!Input.GetKeyUp(this.UseKey) || !this.InRange)
             return;
         this.Parent.Execute();
+        this.IsRunning = true;
     }
 }

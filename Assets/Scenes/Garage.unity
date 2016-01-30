@@ -2465,6 +2465,11 @@ Prefab:
       propertyPath: ScenePlayerVoice
       value: 
       objectReference: {fileID: 120421867}
+    - target: {fileID: 11475676, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
+      propertyPath: DefaultAction
+      value: 
+      objectReference: {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
   m_IsPrefabParent: 0
@@ -6472,7 +6477,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 189100, guid: 3e0996619ab693c43899795fb1251e04, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 194702, guid: 3e0996619ab693c43899795fb1251e04, type: 2}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11407972, guid: 3e0996619ab693c43899795fb1251e04, type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11407972, guid: 3e0996619ab693c43899795fb1251e04, type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11407972, guid: 3e0996619ab693c43899795fb1251e04, type: 2}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e0996619ab693c43899795fb1251e04, type: 2}
@@ -7005,7 +7026,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 432598, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 432598, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_LocalScale.x
@@ -7021,23 +7042,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435426, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 412954, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 401578, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 450610, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400834, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e6e1a5695e4c2c4b9662de89d26a4fd, type: 2}
@@ -7064,6 +7085,10 @@ MonoBehaviour:
   Speech: {fileID: 0}
   OnTrigger: {fileID: 2000455226}
   ExpectedPreviousHabit: {fileID: 0}
+  ExpectedPreviousActions:
+  - {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922, type: 2}
+  PreviousActionsScripts:
+  - {fileID: 2000455226}
 --- !u!114 &2000455226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7290,7 +7315,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.00000011089
+      value: -0.118
       objectReference: {fileID: 0}
     - target: {fileID: 404602, guid: 17a0b9810cdfe2b4f873220c42ea56b7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -7419,7 +7444,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &2028907788
 GameObject:
   m_ObjectHideFlags: 0

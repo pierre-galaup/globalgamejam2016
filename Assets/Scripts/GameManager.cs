@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [NonSerialized]
-    public Habit CurentHabit;
+    public Action CurentHabit;
 
     [SerializeField]
     internal AudioSource PlayerAudioSource;

@@ -13,4 +13,9 @@ public class Action : MonoBehaviour
     {
         
     }
+
+    public virtual void Abort()
+    {
+        
+    }
 }

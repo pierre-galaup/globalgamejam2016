@@ -464,6 +464,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
   OnTrigger: {fileID: 348418415}
   ExpectedPreviousHabit: {fileID: 1834916125}
+  ExpectedPreviousActions:
+  - {fileID: 1834916125}
+  PreviousActionsScripts:
+  - {fileID: 348418415}
 --- !u!114 &348418415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1578,6 +1582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScenePlayerVoice: {fileID: 316687331}
+  DefaultAction: {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922, type: 2}
 --- !u!4 &1346872155
 Transform:
   m_ObjectHideFlags: 0
@@ -1819,6 +1824,10 @@ MonoBehaviour:
   Speech: {fileID: 8300000, guid: c6df7396969dcd746a6e04f06dbd3edf, type: 3}
   OnTrigger: {fileID: 1834916127}
   ExpectedPreviousHabit: {fileID: 0}
+  ExpectedPreviousActions:
+  - {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922, type: 2}
+  PreviousActionsScripts:
+  - {fileID: 1834916127}
 --- !u!4 &1834916126
 Transform:
   m_ObjectHideFlags: 0
