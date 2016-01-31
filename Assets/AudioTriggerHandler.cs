@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(AudioSource))]
 public class AudioTriggerHandler : MonoBehaviour
 {
     [SerializeField]
@@ -9,15 +8,12 @@ public class AudioTriggerHandler : MonoBehaviour
     [SerializeField]
     private AudioClip Clip;
 
-    private AudioSource audioSource;
-
-    public void Awake()
-    {
-        this.audioSource = this.GetComponent<AudioSource>();
-    }
+    [SerializeField] private AudioSource audioSource;
 
     public void OnTriggerEnter(Collider other)
     {
+        if (other.tag != "Player")
+            return;
         if (this.Clip != null)
             this.audioSource.PlayOneShot(this.Clip);
         if (this.ScriptToRun != null)
