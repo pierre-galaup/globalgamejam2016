@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2ff6b7f3dae24438a35f5ca2838dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speech: {fileID: 0}
+  Speech: {fileID: 8300000, guid: a2ec7587c4caf04488ade27964828519, type: 3}
   ExpectedPreviousActions:
   - {fileID: 1930925585}
   - {fileID: 1964294781}
@@ -2329,7 +2329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
 --- !u!1001 &1165083495
 Prefab:
   m_ObjectHideFlags: 0
@@ -4156,6 +4156,76 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e270c93e4281fcb4eb88f0c7d55b6953, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1884972277
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.028
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.296
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -6.386
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489594, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 746765759}
+    - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: Clip
+      value: 
+      objectReference: {fileID: 8300000, guid: bc365dacfa09ed0419091d86bec7d0d7, type: 3}
+    - target: {fileID: 167410, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_Name
+      value: AudioTrigger (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1884972278 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 167410, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+  m_PrefabInternal: {fileID: 1884972277}
+--- !u!135 &1884972279
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884972278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1930925582 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: f43895422c5b6cc46bd4dee3435e38f1, type: 3}
@@ -4187,7 +4257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2ff6b7f3dae24438a35f5ca2838dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speech: {fileID: 0}
+  Speech: {fileID: 8300000, guid: a15a5fb852754ce4c97e9851dcb2a28e, type: 3}
   ExpectedPreviousActions:
   - {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8, type: 2}
   PreviousActionsScripts:
@@ -4389,7 +4459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2ff6b7f3dae24438a35f5ca2838dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speech: {fileID: 0}
+  Speech: {fileID: 8300000, guid: 07e3f94192479c645b4e9cfc9e78d7c3, type: 3}
   ExpectedPreviousActions:
   - {fileID: 439118398}
   PreviousActionsScripts:
