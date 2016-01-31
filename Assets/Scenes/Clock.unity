@@ -5973,7 +5973,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: e64a927f7d49bb946aa1e1bad39befd2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.5
+      value: 6.61
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e64a927f7d49bb946aa1e1bad39befd2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -15155,6 +15155,36 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 445052, guid: d0bd8c282c04079498689c97fc865c70, type: 2}
   m_PrefabInternal: {fileID: 1631961397}
+--- !u!1 &1229848122 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 544432882}
+--- !u!114 &1229848124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229848122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646b5bc27a658f447b1d929fd5ffbd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  showGeneratedNormals: 0
+  offsetScale: 0.2
+  blurRadius: 18
+  edgeThresholdMin: 0.05
+  edgeThreshold: 0.2
+  edgeSharpness: 4
+  dlaaSharp: 0
+  ssaaShader: {fileID: 4800000, guid: b3728d1488b02490cbd196c7941bf1f8, type: 3}
+  dlaaShader: {fileID: 4800000, guid: 017ca72b9e8a749058d13ebd527e98fa, type: 3}
+  nfaaShader: {fileID: 4800000, guid: ce0cb2621f6d84e21a87414e471a3cce, type: 3}
+  shaderFXAAPreset2: {fileID: 4800000, guid: 6f1418cffd12146f2a83be795f6fa5a7, type: 3}
+  shaderFXAAPreset3: {fileID: 4800000, guid: c182fa94a5a0a4c02870641efcd38cd5, type: 3}
+  shaderFXAAII: {fileID: 4800000, guid: cd5b323dcc592457790ff18b528f5e67, type: 3}
+  shaderFXAAIII: {fileID: 4800000, guid: c547503fff0e8482ea5793727057041c, type: 3}
 --- !u!4 &1231914821 stripped
 Transform:
   m_PrefabParentObject: {fileID: 445052, guid: d0bd8c282c04079498689c97fc865c70, type: 2}
@@ -16358,7 +16388,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: e64a927f7d49bb946aa1e1bad39befd2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.27
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e64a927f7d49bb946aa1e1bad39befd2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -18814,6 +18844,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0bd8c282c04079498689c97fc865c70, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1532474147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1532474149}
+  - 65: {fileID: 1532474148}
+  m_Layer: 0
+  m_Name: FallTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1532474148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532474147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 60, y: 0.1, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1532474149
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532474147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.29, z: -19.41}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
 --- !u!1001 &1533594418
 Prefab:
   m_ObjectHideFlags: 0
