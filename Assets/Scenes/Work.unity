@@ -512,7 +512,7 @@ Prefab:
     - target: {fileID: 11475676, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
       propertyPath: DefaultAction
       value: 
-      objectReference: {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922,
+      objectReference: {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}

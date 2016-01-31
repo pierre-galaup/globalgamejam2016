@@ -2468,7 +2468,7 @@ Prefab:
     - target: {fileID: 11475676, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
       propertyPath: DefaultAction
       value: 
-      objectReference: {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922,
+      objectReference: {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2fed2b78ed4766342a6586670d67a6c4, type: 2}
@@ -4987,7 +4987,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 669049051acbc4f6abf59be8799ec8e6, type: 2}
+  - {fileID: 2100000, guid: c8f1fdac416dc5b45ba0f06e90836433, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -7086,7 +7086,7 @@ MonoBehaviour:
   OnTrigger: {fileID: 2000455226}
   ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
-  - {fileID: 11499282, guid: 8c6c72b0befa18c448d0c327b7fea922, type: 2}
+  - {fileID: 0}
   PreviousActionsScripts:
   - {fileID: 2000455226}
 --- !u!114 &2000455226
