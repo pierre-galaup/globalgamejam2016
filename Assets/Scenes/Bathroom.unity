@@ -534,7 +534,7 @@ Prefab:
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 485440384}
+      objectReference: {fileID: 363774807}
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: Clip
       value: 
@@ -542,6 +542,10 @@ Prefab:
     - target: {fileID: 167410, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: m_Name
       value: AudioTrigger (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265458, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
@@ -562,6 +566,11 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &363774807 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8265458, guid: e46e3a6436e8d0142b85dbdecb9e2b76,
+    type: 2}
+  m_PrefabInternal: {fileID: 363774804}
 --- !u!1001 &385121851
 Prefab:
   m_ObjectHideFlags: 0
@@ -911,7 +920,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1667,7 +1676,7 @@ Prefab:
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 485440384}
+      objectReference: {fileID: 958718026}
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: Clip
       value: 
@@ -1691,6 +1700,11 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &958718026 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8265458, guid: e46e3a6436e8d0142b85dbdecb9e2b76,
+    type: 2}
+  m_PrefabInternal: {fileID: 958718023}
 --- !u!1001 &1013168685
 Prefab:
   m_ObjectHideFlags: 0
@@ -2162,7 +2176,7 @@ Prefab:
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 485440384}
+      objectReference: {fileID: 1430358629}
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: Clip
       value: 
@@ -2170,6 +2184,10 @@ Prefab:
     - target: {fileID: 167410, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: m_Name
       value: AudioTrigger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265458, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
@@ -2190,6 +2208,11 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &1430358629 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8265458, guid: e46e3a6436e8d0142b85dbdecb9e2b76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1430358626}
 --- !u!1001 &1438567457
 Prefab:
   m_ObjectHideFlags: 0
@@ -2807,7 +2830,7 @@ Prefab:
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 485440384}
+      objectReference: {fileID: 2083636373}
     - target: {fileID: 11454356, guid: e46e3a6436e8d0142b85dbdecb9e2b76, type: 2}
       propertyPath: Clip
       value: 
@@ -2835,3 +2858,8 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &2083636373 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8265458, guid: e46e3a6436e8d0142b85dbdecb9e2b76,
+    type: 2}
+  m_PrefabInternal: {fileID: 2083636370}

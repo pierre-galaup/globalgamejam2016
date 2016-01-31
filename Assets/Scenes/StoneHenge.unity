@@ -414,6 +414,7 @@ MonoBehaviour:
   ScriptToRun: {fileID: 298845561}
   Clip: {fileID: 0}
   audioSource: {fileID: 0}
+  IsUnique: 0
 --- !u!82 &298845563
 AudioSource:
   m_ObjectHideFlags: 0

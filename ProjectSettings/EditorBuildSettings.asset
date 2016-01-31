@@ -8,21 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/menu.unity
   - enabled: 1
-    path: Assets/Scenes/Bedroom.unity
-  - enabled: 1
     path: Assets/Scenes/Bathroom.unity
   - enabled: 1
-    path: Assets/Scenes/Garage.unity
-  - enabled: 1
-    path: Assets/Scenes/Work.unity
-  - enabled: 1
-    path: Assets/Scenes/Garage Night.unity
-  - enabled: 1
     path: Assets/Scenes/Bedroom Night.unity
+  - enabled: 1
+    path: Assets/Scenes/Bedroom.unity
   - enabled: 1
     path: Assets/Scenes/Cinema.unity
   - enabled: 1
     path: Assets/Scenes/Clock.unity
+  - enabled: 1
+    path: Assets/Scenes/Garage Night.unity
+  - enabled: 1
+    path: Assets/Scenes/Garage.unity
   - enabled: 1
     path: Assets/Scenes/Pool.unity
   - enabled: 1
@@ -30,6 +28,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Space.unity
   - enabled: 1
+    path: Assets/Scenes/StoneHenge.unity
+  - enabled: 1
     path: Assets/Scenes/Stress.unity
   - enabled: 1
-    path: Assets/Scenes/StoneHenge.unity
+    path: Assets/Scenes/Work.unity
