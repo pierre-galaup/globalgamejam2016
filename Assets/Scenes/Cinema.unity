@@ -28901,7 +28901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2ff6b7f3dae24438a35f5ca2838dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speech: {fileID: 0}
+  Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
@@ -38645,7 +38645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2ff6b7f3dae24438a35f5ca2838dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speech: {fileID: 0}
+  Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
   OnTrigger: {fileID: 0}
   ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
