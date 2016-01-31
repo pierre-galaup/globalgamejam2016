@@ -635,8 +635,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 1930925585}
   ExpectedPreviousActions:
   - {fileID: 1930925585}
   - {fileID: 1964294781}
@@ -1631,6 +1629,14 @@ Prefab:
       propertyPath: m_GravityMultiplier
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -2117,8 +2123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 1964294781}
   ExpectedPreviousActions:
   - {fileID: 439118398}
   PreviousActionsScripts:
@@ -2325,7 +2329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
 --- !u!1001 &1165083495
 Prefab:
   m_ObjectHideFlags: 0
@@ -4184,8 +4188,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
   - {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8, type: 2}
   PreviousActionsScripts:
@@ -4388,8 +4390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 439118398}
   ExpectedPreviousActions:
   - {fileID: 439118398}
   PreviousActionsScripts:

@@ -189,6 +189,14 @@ Prefab:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -310,6 +318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScriptToRun: {fileID: 94044795}
   Clip: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!82 &94044797
 AudioSource:
   m_ObjectHideFlags: 0

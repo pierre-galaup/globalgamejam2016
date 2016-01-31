@@ -399,6 +399,10 @@ Prefab:
       propertyPath: m_Height
       value: 2.84
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -857,8 +861,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 8300000, guid: c6df7396969dcd746a6e04f06dbd3edf, type: 3}
-  OnTrigger: {fileID: 856330521}
-  ExpectedPreviousHabit: {fileID: 1834916125}
   ExpectedPreviousActions:
   - {fileID: 1834916125}
   PreviousActionsScripts:
@@ -1651,8 +1653,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
   - {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8, type: 2}
   PreviousActionsScripts:
@@ -1870,8 +1870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 1434296117}
   ExpectedPreviousActions:
   - {fileID: 1434296117}
   PreviousActionsScripts:

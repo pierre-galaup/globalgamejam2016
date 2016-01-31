@@ -6880,6 +6880,14 @@ Prefab:
       propertyPath: m_JumpSpeed
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -7140,8 +7148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 2000455226}
-  ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
   - {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8, type: 2}
   PreviousActionsScripts:

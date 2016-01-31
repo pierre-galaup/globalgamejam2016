@@ -413,6 +413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScriptToRun: {fileID: 298845561}
   Clip: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!82 &298845563
 AudioSource:
   m_ObjectHideFlags: 0
@@ -814,7 +815,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Volume
-      value: 0.1
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}

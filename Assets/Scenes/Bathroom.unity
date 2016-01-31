@@ -674,8 +674,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 8300000, guid: 62a677b6c32509c4f82ea8a5d7d0c2d0, type: 3}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 1569826995}
   ExpectedPreviousActions:
   - {fileID: 1569826995}
   PreviousActionsScripts:
@@ -1553,8 +1551,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 8300000, guid: 260a406bc58e76a43a262658dd7422b4, type: 3}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 429351437}
   ExpectedPreviousActions:
   - {fileID: 429351437}
   PreviousActionsScripts:
@@ -1691,8 +1687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 8300000, guid: 72022f343d52b4e46973916e7677b5b4, type: 3}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 1139858928}
   ExpectedPreviousActions:
   - {fileID: 1139858928}
   PreviousActionsScripts:
@@ -1741,8 +1735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 0}
-  OnTrigger: {fileID: 0}
-  ExpectedPreviousHabit: {fileID: 939796260}
   ExpectedPreviousActions:
   - {fileID: 939796260}
   PreviousActionsScripts:
@@ -2249,8 +2241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speech: {fileID: 8300000, guid: 1182260d36446f44495b447c3fc4c30e, type: 3}
-  OnTrigger: {fileID: 1569826996}
-  ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
   - {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8, type: 2}
   PreviousActionsScripts:
@@ -2425,6 +2415,14 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
