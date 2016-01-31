@@ -5,9 +5,6 @@ using UnityEngine;
 public class Habit : Action
 {
     [SerializeField]
-    private Habit ExpectedPreviousHabit;
-
-    [SerializeField]
     private List<Action> ExpectedPreviousActions = new List<Action>();
     [SerializeField]
     private List<MonoBehaviour> PreviousActionsScripts = new List<MonoBehaviour>();
