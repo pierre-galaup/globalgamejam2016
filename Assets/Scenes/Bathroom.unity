@@ -2283,7 +2283,7 @@ MonoBehaviour:
   OnTrigger: {fileID: 1569826996}
   ExpectedPreviousHabit: {fileID: 0}
   ExpectedPreviousActions:
-  - {fileID: 0}
+  - {fileID: 11499282, guid: 1371c881e34def54db01c13ba81455e8, type: 2}
   PreviousActionsScripts:
   - {fileID: 1569826996}
 --- !u!114 &1569826996
